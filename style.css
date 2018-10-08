@@ -455,7 +455,8 @@ a:hover, a:active {
 
 .icon-box .icon {
     font-size: 42px;
-    color: #19c880;
+    color: #DC143C;
+    
 }
 
 .icon-box .entry-title {
@@ -474,7 +475,7 @@ a:hover, a:active {
     padding-right: 10px;
     font-size: 13px;
     font-weight: 700;
-    color: #19c880;
+    color: #DC143C;    
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -527,8 +528,8 @@ a:hover, a:active {
 
 .courses-wrap .heading .courses-menu li a:hover,
 .courses-wrap .heading .courses-menu li.active a {
-    color: #19c880;
-    border-color: #19c880;
+    color: #DC143C;
+    border-color: #DC143C;
 }
 
 .mx-m-25 {
@@ -589,7 +590,7 @@ a:hover, a:active {
 }
 
 .course-author a {
-    color: #19c880;
+    color:#DC143C;
     text-decoration: none;
 }
 
@@ -616,7 +617,7 @@ a:hover, a:active {
 .course-cost {
     font-size: 24px;
     font-weight: 700;
-    color: #19c880;
+    color: #DC143C;
 }
 
 .course-cost .price-drop {
@@ -653,7 +654,7 @@ a:hover, a:active {
 
 a.btn {
     padding: 16px 48px;
-    border: 2px solid #34d986;
+    border: 2px solid #DC143C;
     border-radius: 0;
     font-size: 13px;
     font-weight: bold;
@@ -666,7 +667,7 @@ a.btn {
 
 a.btn:hover {
     color: #fff;
-    background: #34d986;
+    background: #DC143C;
 }
 
 /*
@@ -758,7 +759,7 @@ a.btn:hover {
     margin-top: 16px;
     font-size: 60px;
     line-height: 1.2;
-    color: #19c880;
+    color: #DC143C;
 }
 
 @media screen and (max-width: 576px) {
@@ -792,12 +793,14 @@ a.btn:hover {
     height: 80px;
     margin-top: -40px;
     cursor: pointer;
+    
 }
 
 .ezuca-video img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 }
 
 @media screen and (max-width: 992px) {
@@ -812,6 +815,7 @@ a.btn:hover {
     .ezuca-video .video-play-btn {
         left: 50%;
         margin-left: -40px;
+        
     }
 }
 
@@ -878,7 +882,7 @@ a.btn:hover {
     font-size: 16px;
     font-weight: 300;
     text-transform: uppercase;
-    color: #19c880;
+    color: #DC143C;
 }
 
 .testimonial-slider .testimonial-user::after {
@@ -907,7 +911,7 @@ a.btn:hover {
 }
 
 .testimonial-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: #19c880;
+    background: #DC143C;
     border: transparent;
 }
 
@@ -969,7 +973,7 @@ a.btn:hover {
 .latest-news-events .featured-event-content .event-location .fa,
 .latest-news-events .featured-event-content .event-duration .fa {
     margin-right: 6px;
-    color: #34d986;
+    color: #DC143C;
 }
 
 .latest-news-events .featured-event-content .event-location,
@@ -1004,7 +1008,7 @@ a.btn:hover {
 
 .event-content .posted-date .fa {
     margin-right: 6px;
-    color: #34d986;
+    color: #DC143C;
 }
 
 .event-content .posted-date {
@@ -1030,7 +1034,7 @@ a.btn:hover {
 
 .event-content .post-author a {
     font-style: italic;
-    color: #19c880;
+    color: #DC143C;
     text-decoration: none;
 }
 
@@ -1526,7 +1530,8 @@ a.btn:hover {
 }
 
 .course-author a {
-    color: #19c880;
+    color: #DC143C;
+   
 }
 
 .course-students {
@@ -1565,7 +1570,8 @@ ul.green-ticked li::before {
     height: 100%;
     font-size: 14px;
     font-family: 'FontAwesome';
-    color: #19c880;
+    color: #DC143C;
+    
 }
 
 ul.black-doted {
@@ -1603,7 +1609,8 @@ ul.black-doted {
 .single-course-accordion-cont .lectures-preview,
 .single-course-accordion-cont .total-lectures-time {
     font-size: 18px;
-    color: #19c880;
+    color: #DC143C;
+    
 }
 
 .single-course-accordion-cont .number-of-lectures,
@@ -1633,7 +1640,8 @@ ul.black-doted {
 .single-course-accordion-cont .arrow-r {
     position: relative;
     padding-right: 10px;
-    color: #19c880;
+    color: #DC143C;
+    
 }
 
 .single-course-accordion-cont .entry-title.active .fa-plus {
@@ -1714,7 +1722,8 @@ ul.black-doted {
     margin-right: 2px;
     font-size: 14px;
     font-family: 'FontAwesome';
-    color: #19c880;
+    color: #DC143C;
+    
 }
 
 .instructors-details {
@@ -1744,7 +1753,7 @@ ul.black-doted {
 }
 
 .instructors-details .course-teacher a {
-    color: #19c880;
+    color: #DC143C;    
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: navajowhite;
@@ -1771,7 +1780,7 @@ ul.black-doted {
 }
 
 .related-courses .entry-heading a {
-    color: #19c880;
+    color: #DC143C;    
     text-decoration: underline;
 }
 
@@ -2577,7 +2586,8 @@ ul.author-social-profile li:hover .fa {
     letter-spacing: 0.1rem;
     outline: none;
     cursor: pointer;
-    background: #19c880;
+    color: #DC143C;
+    
 }
 
 .contact-info p {
@@ -2632,6 +2642,15 @@ ul.author-social-profile li:hover .fa {
     color: #757686;
 }
 
+.foot-about a {
+    color: #383749;
+    text-decoration: none;
+}
+
+.foot-about a span {
+    color: #DC143C;
+}
+
 p.footer-copyright {
     color: #c0c1cd;
 }
@@ -2658,7 +2677,8 @@ p.footer-copyright {
 }
 
 .footer-widgets ul li a:hover {
-    color: #34d986;
+    color: #DC143C;
+    
 }
 
 .footer-widgets .follow-us .fa {
@@ -2725,5 +2745,6 @@ p.footer-copyright {
 }
 
 .footer-bar-nav ul li a:hover {
-    color: #34d986;
+    color: #DC143C;
+    
 }
