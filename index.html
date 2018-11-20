@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <title>Mulheres Digitais</title>
 
@@ -27,19 +27,42 @@
 
     <link rel="stylesheet" type="text/css" href="modal.css">
 
+   
+
+
   <meta name="viewport" content="width=device-width, initial-scale=1">  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  
+  
+<!----<style>
+        #menu_flutuante{
+        position:fixed;
+        
+        top:80px;
+        
+        left:-20px;
+        width:100%;
+       
+        }
+
+        
+        
+        
+        
+        </style>-->
+        
 
   
 
  </head>
-<body>
-    <div class="hero-content">
-        <header class="site-header">
-            <div class="top-header-bar">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div   class="hero-content">
+        <header class="site-header" id="banner">
+          
+            <div  class="top-header-bar">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 col-lg-6 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
@@ -146,28 +169,35 @@
 
 
    
-
-            <div class="nav-bar">
-                <div class="container">
+        
+            <div  class="nav-bar">
+                    
+                <div  class="container-fluid">
+                        
                     <div class="row">
-                        <div class="col-9 col-lg-4">
+                            
+                        <div class="col-8 col-lg-4">
                             <div class="site-branding">
+                                   
                                 <h1 class="site-title"><a href="index.html" rel="home">Mulheres<span>Digitais</span></a></h1>
                                 <h3 class="site-title1">O poder feminino no mercado digital</h3>
+                            
                             </div><!-- .site-branding -->
                         </div><!-- .col -->
 
-                        <div class="col-3 col-lg-8 flex justify-content-end align-content-center">
-                               
-                            <nav class="site-navigation flex justify-content-end align-items-center">
-                                    
-                                <ul class="flex flex-column flex-lg-row justify-content-lg-end align-content-center">
-                                    <li class="current-menu-item"><a href="#about">Quem Somos</a></li>
+                        <div   class="col-5 col-lg-8  justify-content-end align-content-center">
+                                         
+                            <nav class="site-navigation  justify-content-end align-items-center">
+                                   
+                                <ul class="flex flex-lg-row justify-content-lg-end align-content-center">
+                                    <li><a href="#banner">Início</a></li>
+                                    <li><a href="#about">Quem Somos</a></li>
+                                    <li><a href="#coaching">Coaching</a></li>
                                     <li><a href="#courses">Cursos</a></li>
                                     <li><a href="#news">Notícias</a></li>
                                     <li><a href="#contact">Contato</a></li>
                                 </ul>
-                                
+                           
                                 <div class="hamburger-menu d-lg-none">
                                     <span></span>
                                     <span></span>
@@ -175,13 +205,17 @@
                                     <span></span>
                                 </div><!-- .hamburger-menu -->
 
-                               
-                            </nav><!-- .site-navigation -->
                             
+                            </nav><!-- .site-navigation -->
+                       
                         </div><!-- .col -->
+                   
                     </div><!-- .row -->
+               
                 </div><!-- .container -->
+                
             </div><!-- .nav-bar -->
+    
 
         </header><!-- .site-header -->
 
@@ -218,11 +252,11 @@
                     </div><!-- .icon -->
 
                     <header class="entry-header">
-                        <h2 class="entry-title">Aprenda Com Especialistas</h2>
+                        <h2 class="entry-title">Aconselhamento Profissional</h2>
                     </header><!-- .entry-header -->
 
                     <div class="entry-content">
-                        <p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <p>Aqui vamos conversar sobre as principais dúvidas relacionadas à TI,  envolvendo o fornecimento de conhecimentos, competências profissionais e aconselhamento especializado à tecnologia da informação. Se inscreva agora mesmo para ter acesso ao nosso serviço de Coaching e fique por dentro de vários assuntos envolvendo tecnologia!</p>
                     </div><!-- .entry-content -->
 
                  
@@ -238,7 +272,7 @@
                     </header><!-- .entry-header -->
 
                     <div class="entry-content">
-                        <p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <p>Se você procura qualificação gratuita na área de Tecnologia da Informação, você veio no lugar certo. São cursos de programação, iniciação, desenvolvimento, edição, aplicativos, design, ciência dentre outros. Está esperando o quê para começar a aprender? </p>
                     </div><!-- .entry-content -->
 
                 </div><!-- .icon-box -->
@@ -253,7 +287,7 @@
                     </header><!-- .entry-header -->
 
                     <div class="entry-content">
-                        <p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <p>Estude em casa! Para não sair se jogando de cara sem saber se realmente gostar, comece estudando sozinha. O nosso portal é cheio de ótimos conteúdos, basta saber procurar. Veja os vídeos com tutoriais e participe de fóruns de ajuda.</p>
                     </div><!-- .entry-content -->
 
                  
@@ -271,10 +305,10 @@
             <div class="row">
                 <div class="col-12 col-lg-6 align-content-lg-stretch">
                     <header class="heading">
-                        <h2 class="entry-title">Sobre o Mulheres Digitais</h2>
+                        <h2 class="entry-title" style="color:#DC143C">Sobre o Mulheres Digitais</h2>
 
                         <p>Com tantas inspirações de peso, seria de se esperar que as mulheres fossem uma presença significativa – não só em qualidade, como também em quantidade – na área de TI, correto? Pois é, mas a realidade é bem diferente.</p>
-                        <p><b>O que desmotiva as mulheres a irem para a área de T.I?</b></p>
+                        <p><b>O que desmotiva as mulheres a irem para a área de T.I.?</b></p>
                         <p>É visível que há um fator de desmotivação entre as meninas gostarem de informática e, quando adultas, optarem por ela como carreira. O problema está na base da nossa construção sociocultural. “Nas escolas não há orientação para mostrar que todos os alunos podem seguir uma carreira em STEM (sigla em inglês para ciência, tecnologia, engenharia e matemática). Tendem a achar que os meninos têm mais facilidade para entender STEM. Essa carreira não é apresentada para a mulher como uma possibilidade, tem o estigma de ser masculina.
                         </p>
                         
@@ -285,12 +319,9 @@
 
                 <div class="col-12 col-lg-6 align-content-center mt-5 mt-lg-0">
                     <div class="ezuca-video position-relative">
-                        <div class="video-play-btn position-absolute">
-                               
-                            <img src="images/video-icon.png" alt="Video Play"></a>
-                        </div><!-- .video-play-btn -->
-                        
-                        <img src="images/video-screenshot.png" alt="">
+
+                            <iframe width="440" height="254" src="https://www.youtube.com/embed/qdyKWFAsEK4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     
                     </div><!-- .ezuca-video -->
 
                     <br>
@@ -298,7 +329,7 @@
                     <p>Existe um problema de insegurança feminina neste mercado, e é natural que exista. Primeiro, tem a situação de estar em uma sala de aula com 40 caras, sendo menosprezada todos os dias apenas por ser mulher. Depois, com mais de dez anos de carreira, ouvimos coisas como ‘Não sei se passo esse projeto para ela, será que ela vai dar conta? ’. O questionamento não existe em relação aos homens.</p>
                         <p>Por isso, nós do projeto Mulheres Digitais, gostaríamos de poder ajudar todas as mulheres que querem ingressar na área, que tenha interesse em aprender mais a respeito e não tem o apoio e incentivo que gostaria de ter. Estamos aqui para oferecer um portal com vídeo aulas em diversos aspectos da tecnologia para nossas inscritas, aulas disseminadas por mulheres que atuam na área, e que possam ajudar você a ter um direcionamento na carreira da T.I. Juntas somos mais fortes, você não está sozinha!
                         </p>    
-
+                        <p><a href=#banner style="color: #DC143C"><b>#Voltar ao Início#</b></a></p>
                     </header>    
                 </div><!-- .col -->
 
@@ -309,15 +340,60 @@
     </section><!-- .about-section -->
 
     
+<section id="coaching" >
+    <div  class="row">
+        <div class="col-12">
+            <div class="about-heading">
+                <h2 class="entry-title" style="color:#DC143C">Serviço de Coaching para todas as Mulheres Digitais!</h2>
+
+                <p>A forma como encaramos os fatos faz a nossa realidade. E o que fazemos com o que temos é o que nos diferencia uns dos outros.</p>
+                
+            </div><!-- .about-heading -->
+        </div><!-- .col -->
+
+        <div class="col-12 col-lg-12 align-content-center">
+            <div class="about-stories">
+                <h3 style="color:#DC143C">Por quê o Coaching é tão importante em nossas vidas?</h3>
+
+                <p>Participar de um processo de coaching permite que você assuma o comando de sua vida, crie a realidade que deseja para você mesma, saindo do ponto de onde está hoje para chegar aonde quer estar em um curto espaço de tempo. Guiada por sua coach, você acelera seus resultados por meio do autoconhecimento e do reconhecimento e desenvolvimento de suas habilidades para garantir o seu sucesso, seja o que essa palavra significar para você.</p>
+
+                <p>Coaching Exclusivo para Mulheres: como funciona?</p>
+
+                    <p>Primeiro você escolhe a sua coach dentre as diversas áreas da TI. Depois é agendada uma sessão inicial para conhecer e estabelecer o relacionamento de coaching, estabelecer as bases para alinhar com seu propósito de vida e definir metas, ações e práticas para que você possa manifestar o que realmente deseja. </p>
+                    <p>E o melhor de tudo é que as sessões são realizadas via videoconferência! Assim você pode ter acesso à sua coach de qualquer lugar do mundo! </p>
+                    <p>O Coaching irá ajudá-la:</p>
+
+                <ul class="p-0 m-0 green-ticked">
+                    <li>Definir sua visão de negócios.</li>
+                    <li>Definir metas desafiadoras, mas realizáveis.</li>
+                    <li>Ter bom relacionamento interpessoal;</li>
+                    <li>Na capacidade de questionamento.</li>
+                    <li>Na construção de um pensamento criativo e analítico.</li>
+                    <li>Gerenciar qualquer sensação de aborrecimento, estresse ou frustração à medida que ele aparece.</li>
+                    <li>Gerenciar quaisquer transições de vida importantes.</li>
+                    <li>Encontrar o propósito da sua vida.</li>
+                </ul><!-- .green-ticked -->
+                <br>
+                <p><a href=#banner style="color: #DC143C"><b>#Voltar ao Início#</b></a></p>
+            </div><!-- .about-stories -->
+        </div><!-- .col -->
+
+        
+    </div><!-- .row -->
+</div><!-- .container -->
+</section>
+<br><br>
+
+    
 
     <section id="courses" class="featured-courses vertical-column courses-wrap">
         <div class="container">
             <div class="row mx-m-25">
                 <div class="col-12 px-25">
                     <header class="heading flex flex-wrap justify-content-between align-items-center">
-                        <h2 class="entry-title">Cursos</h2>
+                        <h2 class="entry-title" style="color:#DC143C">Cursos</h2>
 
-                        <nav class="courses-menu mt-3 mt-lg-0">
+                       <!---- <nav class="courses-menu mt-3 mt-lg-0">
                             <ul class="flex flex-wrap justify-content-md-end align-items-center">
                                 <li class="active"><a href="#">Todos</a></li>
                                 <li><a href="#">Programação</a></li>
@@ -325,24 +401,24 @@
                                 <li><a href="#">Hardware</a></li>
                                 <li><a href="#">Banco de Dados</a></li>
                             </ul>
-                        </nav><!-- .courses-menu -->
+                        </nav>--><!-- .courses-menu -->
                     </header><!-- .heading -->
                 </div><!-- .col -->
 
                 <div class="col-12 col-md-6 col-lg-4 px-25">
                     <div class="course-content">
                         <figure class="course-thumbnail">
-                            <a href="#"><img src="images/1.jpg" alt=""></a>
+                            <img src="images/1.jpg" alt="">
                         </figure><!-- .course-thumbnail -->
 
                         <div class="course-content-wrap">
                             <header class="entry-header">
-                                <h2 class="entry-title"><a href="#">Curso Completo de Desenvolvimento Android</a></h2>
+                                <h2 class="entry-title">Conversões de bases numéricas</h2>
 
                                 <div class="entry-meta flex align-items-center">
-                                    <div class="course-author"><a href="#">Prof. Lara Croft </a></div>
+                                    <div class="course-author"><a href="#">Clara Alonso </a></div>
 
-                                    <div class="course-date">21 Nov 2018</div>
+                                    <div class="course-date">18 Nov 2018</div>
                                 </div><!-- .course-date -->
                             </header><!-- .entry-header -->
 
@@ -366,17 +442,17 @@
                 <div class="col-12 col-md-6 col-lg-4 px-25">
                     <div class="course-content">
                         <figure class="course-thumbnail">
-                            <a href="#"><img src="images/2.jpg" alt=""></a>
+                            <img src="images/2.jpg" alt="">
                         </figure><!-- .course-thumbnail -->
 
                         <div class="course-content-wrap">
                             <header class="entry-header">
-                                <h2 class="entry-title"><a href="#">Curso Completo de Java Avançado</a></h2>
+                                <h2 class="entry-title">Instalação<br> do Windows</h2>
 
                                 <div class="entry-meta flex align-items-center">
-                                    <div class="course-author"><a href="#">Michelle Golden</a></div>
+                                    <div class="course-author"><a href="#">Greyziele Cael</a></div>
 
-                                    <div class="course-date">14 Dez 2018</div>
+                                    <div class="course-date">18 Nov 2018</div>
                                 </div><!-- .course-date -->
                             </header><!-- .entry-header -->
 
@@ -400,17 +476,17 @@
                 <div class="col-12 col-md-6 col-lg-4 px-25">
                     <div class="course-content">
                         <figure class="course-thumbnail">
-                            <a href="#"><img src="images/3.jpg" alt=""></a>
+                            <img src="images/3.jpg" alt="">
                         </figure><!-- .course-thumbnail -->
 
                         <div class="course-content-wrap">
                             <header class="entry-header">
-                                <h2 class="entry-title"><a href="#">Curso Completo de Desenvolvimento Web</a></h2>
+                                <h2 class="entry-title">Quebrando senha<br> do Windows</h2>
 
                                 <div class="entry-meta flex align-items-center">
-                                    <div class="course-author"><a href="#">Prof. Maria Lúcia</a></div>
+                                    <div class="course-author"><a href="#">Greyziele Cael</a></div>
 
-                                    <div class="course-date">18 Dez 2018</div>
+                                    <div class="course-date">18 Nov 2018</div>
                                 </div><!-- .course-date -->
                             </header><!-- .entry-header -->
 
@@ -429,8 +505,10 @@
                             </footer><!-- .entry-footer -->
                         </div><!-- .course-content-wrap -->
                     </div><!-- .course-content -->
+                    <br>
+                    <p><a href=#banner style="color: #DC143C"><b>#Voltar ao Início#</b></a></p>
                 </div><!-- .col -->
-
+                
                
 
                
@@ -448,7 +526,7 @@
             <div class="row">
                 <div class="col-12">
                     <header class="heading flex justify-content-between align-items-center">
-                        <h2 class="entry-title">Últimas Notícias e Eventos</h2>
+                        <h2 class="entry-title" style="color:#DC143C">Últimas Notícias e Eventos</h2>
                     </header><!-- .heading -->
                 </div><!-- .col -->
 
@@ -526,6 +604,7 @@
                         </div><!-- .event-content-wrap -->
                     </div><!-- .event-content -->
                 </div><!-- .col -->
+                <p><a href=#banner style="color: #DC143C"><b>#Voltar ao Início#</b></a></p>
             </div><!-- .row -->
         </div><!-- .container -->
     </section><!-- .latest-news-events -->
@@ -636,12 +715,14 @@
                                 
                                 <li><a href="#">Termos de Uso</a></li>
                                 <li><a href="#">Política de Privacidade</a></li>
+                                <li><a href=#banner style="color: #DC143C"><b>#Voltar ao Início#</b></a></li>
                             </ul>
                         </div><!-- .footer-bar-nav -->
                     </div><!-- .col-12 -->
                 </div><!-- .row -->
             </div><!-- .container -->
         </div><!-- .footer-bar -->
+        
     </footer><!-- .site-footer -->
 
 <script type='text/javascript' src='js/jquery.js'></script>
